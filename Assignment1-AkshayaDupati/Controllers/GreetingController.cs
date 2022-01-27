@@ -30,8 +30,8 @@ namespace Assignment1_AkshayaDupati.Controllers
         public string Get(int id)
         {
 
-            var _greetingsText = "Greetings to " + id + " people!";
-            return _greetingsText;
+            var greetingsText = "Greetings to " + id + " people!";
+            return greetingsText;
         }
     }
 }
