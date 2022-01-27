@@ -17,7 +17,8 @@ namespace Assignment1_AkshayaDupati.Controllers
         /// <returns>Hello World</returns>
         public string Post()
         {
-            return "Hello World!";
+            var messageToPost = "Hello World!";
+            return messageToPost;
         }
 
         // GET - api/greeting/id
